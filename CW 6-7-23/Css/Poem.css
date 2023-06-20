@@ -41,7 +41,7 @@ em {
 
 .text::after {
   content: "";
-  background-image: url(/Assets/background.jpg);
+  background-image: url(/CW\ 6-7-23/Assets/background.jpg);
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover; 
