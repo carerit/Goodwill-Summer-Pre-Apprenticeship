@@ -1,0 +1,73 @@
+html {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.text {
+  width: 80%;
+  max-width: 500px;
+  text-align: justify;
+  text-align-last: center;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+.title {
+  font-size: small;
+  padding: 15px;
+  background-color: #54c8ef85;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+  box-shadow: 8px 8px 2px 2px #569bb3ed;
+}
+
+em {
+  font-weight: bolder;
+}
+
+.title-text {
+  font-weight: bolder;
+}
+
+.quote{
+  padding: 25px;
+  background-color: #68b54385;
+  border-radius: 2rem;
+  box-shadow: 8px 8px 2px 2px #5f8b4ced;
+}
+
+.text::after {
+  content: "";
+  background-image: url(/Assets/background.jpg);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #91C73E90;
+  color: black  ;
+  text-align: center;
+}
+
+.youtube {
+    color: #57C0B7;
+}
+
+.youtube:visited {
+    color: #176E37;
+}
